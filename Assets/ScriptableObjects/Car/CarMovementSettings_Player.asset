@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a285c57d0b26564e9494de1550e7681, type: 3}
   m_Name: CarMovementSettings_Player
   m_EditorClassIdentifier: 
-  _carSpeed: 0.001
-  _carRotationSpeed: 1
+  _carSpeed: 0.005
+  _carRotationSpeed: 1.24
