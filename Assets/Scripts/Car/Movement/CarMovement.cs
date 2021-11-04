@@ -15,7 +15,7 @@ namespace WreckingIO.Car.Movement {
 
         public override void Move()
         {
-            transform.Translate(Vector3.forward * _carSettings.CarSpeed);
+            transform.Translate(transform.forward * _carSettings.CarSpeed, Space.World);
         }
     }
 }
