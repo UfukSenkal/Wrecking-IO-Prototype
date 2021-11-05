@@ -25,12 +25,12 @@ namespace WreckingIO.InputSystem
                 if (Input.mousePosition.x < Screen.width / 2)
                 {
                     _isLeft = true;
-                    Debug.Log("Left click");
+                    
                 }
                 else
                 {
                     _isLeft = false;
-                    Debug.Log("Right click");
+                    
                 }
                
             }
