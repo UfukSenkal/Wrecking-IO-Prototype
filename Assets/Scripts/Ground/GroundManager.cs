@@ -21,9 +21,13 @@ namespace WreckingIO.Ground
         {
             if (_groundPartList.Count > i)
             {
-
+                for (int j = 0; j < _groundPartList[i].transform.childCount; j++)
+                {
+                    _groundPartList[i].transform.GetChild(j).GetComponent<MeshCollider>().isTrigger = true;
+                }
                 _groundPartList[i].isKinematic = false;
                 _groundPartList[i].AddRelativeForce(Vector3.down * 50f);
+                
             }
             
         }
